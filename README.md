@@ -1,5 +1,5 @@
-# .github
-SeSAC 영등포 6기 2차 프로젝트 README
+# 리블링스(Lieblings)
+SeSAC 영등포 6기 2차 프로젝트
 
 
 프로젝트 개요
