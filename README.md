@@ -25,7 +25,7 @@ SeSAC 영등포 6기 2차 프로젝트
     <td style="display: flex; justify-content: center;"><img src="https://github.com/user-attachments/assets/d4f065ac-1c2b-45ed-b29d-c0445f289c2c" style="width:100px"></td>
     <td style="display: flex; justify-content: center;"><img src="https://github.com/user-attachments/assets/c3c97029-245a-4593-a725-2e5276ae28e0" style="width:100px"></td>
     <td style="display: flex; justify-content: center;"><img src="https://github.com/user-attachments/assets/ab6405f1-901f-4083-86e8-2f8f3dd9582c" style="width:100px"></td>
-    <td style="display: flex; justify-content: center;"><img src="https://github.com/user-attachments/assets/3e6fd909-402a-4f23-9667-e012b40a4367" style="width:100px"></td>
+    <td style="display: flex; justify-content: center;"><img src="https://avatars.githubusercontent.com/u/169608866?v=4" style="width:100px"></td>
     <td style="display: flex; justify-content: center;"><img src="https://github.com/user-attachments/assets/48fe4c8e-a7c5-43c4-ab2e-94889ca181a5" style="width:100px"></td>
   </tr>
   <tr>
