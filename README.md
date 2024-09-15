@@ -139,7 +139,7 @@ SeSAC 영등포 6기 2차 프로젝트(240821~240912) <br>
 
 ## 6. 프로젝트 설계
 - [요구분석 정의서/명세서](https://docs.google.com/spreadsheets/d/1Ya0RCD4RilnOiLNQEIT97pBJ_jZ2YYCjc8nT2JiX4nU/edit?gid=0#gid=0)
-- [DB 설계](https://docs.google.com/spreadsheets/d/19wpsHMeo13iEGt-u6Z07HWKJWk_376ttvAtTzTgLKSE/edit?gid=0#gid=0)
+- [DB 설계](https://github.com/SeSAC-2nd/SeSAC-2nd-Back/wiki/DB-%EC%84%A4%EA%B3%84)
 - [화면 설계](https://www.figma.com/design/DWtFFjfUstdvSYmbkATfLE/sesac-2nd-pj?node-id=0-1&node-type=canvas&t=7Fuy1V5MQoBPyhzW-0)
 - [명명법](https://docs.google.com/spreadsheets/d/1QaX_eHmUnU0yDstVW9tcm-4Va23pm7ib7xM4YGWIkAQ/edit?gid=0#gid=0)
 
