@@ -1,10 +1,13 @@
 # 리블링스(Lieblings)
-SeSAC 영등포 6기 2차 프로젝트
+SeSAC 영등포 6기 2차 프로젝트(240821~240912) <br>
+[리블링스_발표자료.pdf](https://github.com/user-attachments/files/17005581/_.pdf)
 
 
 프로젝트 개요
 ---------
-
+<h3>💕나의 구최애가 너의 현최애다, 너의 구최애가 나의 현최애다.</h3><br>
+덕질의 즐거움을 함께 나누는 공간, 리블링스에 오신 것을 환영합니다!<br>
+덕질의 열정은 시간이 흘러도 변하지 않습니다. <br> 하지만 최애가 바뀌기도하고, 새로운 애정을 찾기도 하지요. <br>저희 웹사이트는 K-pop, 애니메이션, 영화/드라마, 게임, 스포츠 등 다양한 덕질 분야의 물품을 중고 거래할 수 있는 공간입니다
 
 
 팀원 구성
@@ -69,28 +72,84 @@ SeSAC 영등포 6기 2차 프로젝트
 <img src="https://img.shields.io/badge/amazonwebservices-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"> <img src="https://img.shields.io/badge/amazonec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"> <img src="https://img.shields.io/badge/amazons3-569A31?style=for-the-badge&logo=amazons3&logoColor=white"> <img src="https://img.shields.io/badge/amazonrds-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"> <img src="https://img.shields.io/badge/nginx-009639?style=for-the-badge&logo=nginx&logoColor=white"> <img src="https://img.shields.io/badge/pm2-2B037A?style=for-the-badge&logo=pm2&logoColor=white">
 
 #### Development Environment and Tool
-<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"> <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white">
+<img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"> <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white"> <img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"> <img src="https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white"> 
 
 #### Communication Tools
 <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
 
 ## 2. 브랜치 전략
+  
+   <pre><code>  Main branch
+      └── dev
+	    ├── frontDev
+	    |  ├── feat/login
+	    |  ├── feat/register
+	    |  └── feat/post
+	    |  └── feat/multer
+	    |  └── hotfix/user
+	    </code></pre>
 
 ## 3. 프로젝트 구조
 ![Section 1 (1)](https://github.com/user-attachments/assets/eaad7281-840c-4c03-8fb7-252aa6042678)
+<pre><code>
+  SESAC-2ND-FRONT
+├── public - 공통리소스 저장공간
+├── src - 리액트 앱이 저장될 장소
+│ ├── api - axios 통신 함수 모음
+│ ├── components - (하위)컴포넌트모음 
+│ │                          
+│ ├── data - 카테고리 데이터, 테스트용 더미 데이터 객체 모음
+│ ├── hooks - 커스텀 훅 모음
+│ ├── layout - 공통 레이아웃 모음
+│ │ └── routes - 공통라우트 모음
+│ │
+│ ├── pages - 페이지(상위)컴포넌트 작성
+│ ├── store - 전역 상태 관리용
+│ ├── styles - 사이트에 적용될 스타일모음
+│ │ │
+│ │ ├── common - 공통 스타일 모음
+│ │ ├── layout - 레이아웃 관련 스타일 모음
+│ │ └── pages - 페이지 스타일 모음
+│ └── utils - 공통 함수를 추출해 분류
+└── App.js - React 애플리케이션의 루트
+                    컴포넌트
+</code></pre>
+<pre><code>
+  SESAC-2ND-BACK
+├── config - sequelize 등의 설정 파일 모음
+├── controller - API 요청에 대해 실제로 어떤 동작을 하게될 지 정의
+│ │                    
+│ └── index.js
+│
+├── middlewares - 미들웨어
+│        multer - 파일 전송용 
+│        session - 세션 설정용
+│        winston - 로그 기록용
+│
+├── models - sequelize의 모델을 정의, db 연결 객체를 생성              
+├── routes - 리액트에서 요청받은 요청들을 분류하는 라우트
+├── utils - 여러 함수에서 사용하는 공통유틸을 추출  
+├── logs - winston 미들웨어를 통해 로그를 기록하는 디렉토리          
+└── app.js - 애플리케이션의 주 진입점 파일
 
+</code></pre>
    
 ## 4. 역할 분담
 ## 5. 개발 기간과 협업 관리
 
 ## 6. 프로젝트 설계
-- 요구분석 정의서/명세서
-- DB 설계
-- 화면 설계
-- 명명법
+- [요구분석 정의서/명세서](https://docs.google.com/spreadsheets/d/1Ya0RCD4RilnOiLNQEIT97pBJ_jZ2YYCjc8nT2JiX4nU/edit?gid=0#gid=0)
+- [DB 설계](https://docs.google.com/spreadsheets/d/19wpsHMeo13iEGt-u6Z07HWKJWk_376ttvAtTzTgLKSE/edit?gid=0#gid=0)
+- [화면 설계](https://www.figma.com/design/DWtFFjfUstdvSYmbkATfLE/sesac-2nd-pj?node-id=0-1&node-type=canvas&t=7Fuy1V5MQoBPyhzW-0)
+- [명명법](https://docs.google.com/spreadsheets/d/1QaX_eHmUnU0yDstVW9tcm-4Va23pm7ib7xM4YGWIkAQ/edit?gid=0#gid=0)
 
    
-## 7. 구현 기능(기능별)
+## 7. 구현 기능
+#### 판매자
+#### 구매자
+#### 관리자
+#### 로그인/회원가입
+#### 메인 페이지 및 소개 페이지
 
 
 ## 8. 성능 테스트
