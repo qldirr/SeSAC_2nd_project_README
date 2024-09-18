@@ -111,8 +111,8 @@ SeSAC 영등포 6기 2차 프로젝트(240821~240912) <br>
 │ │ ├── layout - 레이아웃 관련 스타일 모음
 │ │ └── pages - 페이지 스타일 모음
 │ └── utils - 공통 함수를 추출해 분류
-└── App.js - React 애플리케이션의 루트
-                    컴포넌트
+└── App.js - React 애플리케이션의 루트 컴포넌트
+	
 </code></pre>
 <pre><code>
   SESAC-2ND-BACK
