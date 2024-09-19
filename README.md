@@ -154,5 +154,9 @@ https://github.com/user-attachments/assets/6d096c24-5ab9-44c7-9828-b1b60f78733e
 
 #### 메인 페이지 및 소개 페이지
 
+https://github.com/user-attachments/assets/73848309-83e7-44f7-ac99-8dde0e40544c
 
-## 8. 성능 테스트
+
+
+
+## 7. 성능 테스트
