@@ -1,5 +1,6 @@
 # 리블링스(Lieblings)
 SeSAC 영등포 6기 2차 프로젝트(240821~240912) <br>
+배포 서버 : http://13.125.19.233:8080/
 [리블링스_발표자료.pdf](https://github.com/user-attachments/files/17005581/_.pdf)
 
 
