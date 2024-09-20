@@ -2,9 +2,6 @@
 SeSAC 영등포 6기 2차 프로젝트(240821~240912) <br>
 배포 서버 : http://13.125.19.233:8080/ <br>
 
-**관리자 계정** <br>
-관리자 아이디 : admin <br>
-관리자 비밀번호 admin1111 <br>
 
 [리블링스_발표자료.pdf](https://github.com/user-attachments/files/17005581/_.pdf)
 
@@ -170,6 +167,15 @@ SeSAC 영등포 6기 2차 프로젝트(240821~240912) <br>
   - 개인정보 수정 / 판매자 정보 수정 페이지 레이아웃 및 기능
   - 공통 UI 레이아웃(header, footer, main)
   - 리액트 라우터 초기세팅
+- 강예나
+  - 공통 UI 레이아웃(header, footer, main)
+  - 리액트 라우터 초기세팅
+  - 메인페이지 레이아웃 및 기능
+  - 소개페이지 레이아웃 및 기능
+  - 판매글 등록 페이지 레이아웃 및 기능
+  - 판매글 상세페이지 레이아웃 및 기능
+  - 프론트 테스트 환경 구축
+  
 ## 5. 프로젝트 설계
 - [요구분석 정의서/명세서](https://docs.google.com/spreadsheets/d/1Ya0RCD4RilnOiLNQEIT97pBJ_jZ2YYCjc8nT2JiX4nU/edit?gid=0#gid=0)
 - [DB 설계](https://github.com/SeSAC-2nd/SeSAC-2nd-Back/wiki/DB-%EC%84%A4%EA%B3%84)
