@@ -141,7 +141,27 @@ SeSAC 영등포 6기 2차 프로젝트(240821~240912) <br>
 </code></pre>
    
 ## 4. 역할 분담
-
+- 이다인
+  - 커스텀 훅 및 리덕스를 활용한 유저 권한 관리
+  - 결제 관련(장바구니, 결제, 결제완료, 배송지) 상태관리 및 기능
+  - 카테고리 별 상품 목록 페이지 레이아웃, 렌더링, 페이지네이션 기능
+  - 검색 기능 및 검색 결과 페이지 레이아웃, 렌더링, 페이지네이션 기능
+  - 관리자 페이지 레이아웃, 렌더링 및 기능
+  - 공통 UI 레이아웃(header, footer, main)
+  - 리액트 라우터 초기세팅
+- 양태완
+  - 프론트엔드와 백엔드의 API 연동과 데이터바인딩 작업중 발생하는 오류 해결
+  - 일관성 없는 응답구조의 개선
+  - S3와 통신하는 미들웨어 구현 
+  - 마이페이지 초기 페이지 
+  - cors 해결, AWS를 통한 배포
+- 김어진
+  - 전체 설계 총괄 
+  - 프론트엔드와 백엔드의 API 연동과 데이터바인딩 작업중 발생하는 오류 해결
+  - AWS 구축 및 설정
+  - DB 초기 설정 및 관리
+  - 백엔드 초기 세팅
+    
 ## 5. 프로젝트 설계
 - [요구분석 정의서/명세서](https://docs.google.com/spreadsheets/d/1Ya0RCD4RilnOiLNQEIT97pBJ_jZ2YYCjc8nT2JiX4nU/edit?gid=0#gid=0)
 - [DB 설계](https://github.com/SeSAC-2nd/SeSAC-2nd-Back/wiki/DB-%EC%84%A4%EA%B3%84)
@@ -163,6 +183,5 @@ https://github.com/user-attachments/assets/6d096c24-5ab9-44c7-9828-b1b60f78733e
 https://github.com/user-attachments/assets/73848309-83e7-44f7-ac99-8dde0e40544c
 
 
+## 7. 향후 계획(추가 보완점)
 
-
-## 7. 성능 테스트
