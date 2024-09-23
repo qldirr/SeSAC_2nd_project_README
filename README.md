@@ -8,6 +8,8 @@
 
 📃 [리블링스 발표자료 PDF](https://github.com/user-attachments/files/17101470/default.pdf)
 
+<br/>
+
 ## 🔹 목차
 
 1. [프로젝트 소개](#🔹-프로젝트-소개)
@@ -20,12 +22,16 @@
 8. [구현 기능](#🔹-구현-기능)
 9. [향후 계획](#🔹-향후-계획)
 
+<br/>
+
 ## 🔹 프로젝트 소개
 
 ### 💕나의 구최애가 너의 현최애다, 너의 구최애가 나의 현최애다.
 
 <span title="특정한 분야나 대상을 열정적으로 좋아하고 그에 대한 활동을 즐기는 것을 의미합니다." style="color:pink">덕질</span>의 즐거움을 함께 나누는 공간, 리블링스는 독일어로 <span style="color:pink" title="최고로 애정하는">'최애'</span>를 의미합니다.
 덕질의 열정은 시간이 흘러도 변하지 않습니다. 하지만 최애가 바뀌기도 하고, 새로운 애정을 찾기도 합니다. 저희 웹 사이트는 K-pop, 스포츠, 애니메이션, 영화/드라마, 게임, 스포츠 등 <span style="background-color:#ffdce0">'다양한 덕질 분야의 물품을 중고 거래할 수 있는 공간'</span>입니다.
+
+<br/>
 
 ## 🔹 팀원 구성
 
@@ -68,6 +74,8 @@
   </tr>
 </table>
 
+<br/>
+
 ## 🔹 개발 환경
 
 #### Languages
@@ -97,6 +105,8 @@
 #### Communication Tools
 
 <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
+
+<br/>
 
 ## 🔹 브랜치 전략
 
@@ -129,6 +139,8 @@
                             ·
                             ·
 ```
+
+<br/>
 
 ## 🔹 프로젝트 구조
 
@@ -176,6 +188,8 @@
 └── app.js - 애플리케이션의 주 진입점 파일
 ```
 
+<br/>
+
 ## 🔹 역할 분담
 
 - 이다인
@@ -217,12 +231,16 @@
   - 공통 UI 레이아웃(header, footer, main)
   - 리액트 라우터 초기세팅
 
+<br/>
+
 ## 🔹 프로젝트 설계
 
 - [요구분석 정의서/명세서](https://docs.google.com/spreadsheets/d/1Ya0RCD4RilnOiLNQEIT97pBJ_jZ2YYCjc8nT2JiX4nU/edit?gid=0#gid=0)
 - [DB 설계](https://github.com/SeSAC-2nd/SeSAC-2nd-Back/wiki/DB-%EC%84%A4%EA%B3%84)
 - [화면 설계](https://www.figma.com/design/DWtFFjfUstdvSYmbkATfLE/sesac-2nd-pj?node-id=0-1&node-type=canvas&t=7Fuy1V5MQoBPyhzW-0)
 - [명명법](https://docs.google.com/spreadsheets/d/1QaX_eHmUnU0yDstVW9tcm-4Va23pm7ib7xM4YGWIkAQ/edit?gid=0#gid=0)
+
+<br/>
 
 ## 🔹 구현 기능
 
@@ -239,5 +257,7 @@ https://github.com/user-attachments/assets/6d096c24-5ab9-44c7-9828-b1b60f78733e
 #### 메인 페이지 및 소개 페이지
 
 https://github.com/user-attachments/assets/73848309-83e7-44f7-ac99-8dde0e40544c
+
+<br/>
 
 ## 🔹 향후 계획
