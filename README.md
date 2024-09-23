@@ -1,4 +1,4 @@
-# 리블링스(Lieblings)
+# 💎 리블링스(Lieblings)
 
 > SeSAC 영등포 6기 2차 프로젝트(240821~240912)
 
@@ -29,24 +29,24 @@
 
 ## 🔹 팀원 구성
 
-<table style="text-align: center">
+<table style="width: 100%; text-align: center; border-collapse: collapse; table-layout: fixed;">
   <tr>
     <th></th>
-    <th style="text-align: center">강예나</th>
-    <th style="text-align: center">김어진</th>
-    <th style="text-align: center">김지민</th>
-    <th style="text-align: center">양태완</th>
-    <th style="text-align: center">윤예슬</th>
-    <th style="text-align: center">이다인</th>
+    <th style="text-align: center;">강예나</th>
+    <th style="text-align: center;">김어진</th>
+    <th style="text-align: center;">김지민</th>
+    <th style="text-align: center;">양태완</th>
+    <th style="text-align: center;">윤예슬</th>
+    <th style="text-align: center;">이다인</th>
   </tr>
-  <tr style="width:100%">
-    <th>Profile</th>
-    <td><img src="https://github.com/user-attachments/assets/42989cb4-400d-4014-ba07-919002815199" style="min-width:100px"></td>
-    <td><img src="https://github.com/user-attachments/assets/d4f065ac-1c2b-45ed-b29d-c0445f289c2c" style="min-width:100px"></td>
-    <td><img src="https://github.com/user-attachments/assets/c3c97029-245a-4593-a725-2e5276ae28e0" style="min-width:100px"></td>
-    <td><img src="https://github.com/user-attachments/assets/ab6405f1-901f-4083-86e8-2f8f3dd9582c" style="min-width:100px"></td>
-    <td><img src="https://avatars.githubusercontent.com/u/169608866?v=4" style="min-width:100px"></td>
-    <td><img src="https://github.com/user-attachments/assets/48fe4c8e-a7c5-43c4-ab2e-94889ca181a5" style="min-width:100px"></td>
+  <tr>
+    <th style="height: 100px;">Profile</th>
+    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/6e13c168-e6e0-401b-b4f2-186159794ce4" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/78019a73-1bb5-4faa-9212-8d12ed8f753e" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/823eff6e-7346-4bbb-9d0c-e27858874dde" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/138ae7a3-2fd6-43a3-9db4-dff51e0e47d4" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/17ad8da5-ce06-4946-b96a-69384e664582" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/bba5ed4f-206b-4768-a900-b744f1e22dd5" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
   </tr>
   <tr>
     <th>Role</th>
