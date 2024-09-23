@@ -40,13 +40,13 @@
     <th style="text-align: center;">이다인</th>
   </tr>
   <tr>
-    <th style="height: 100px;">Profile</th>
-    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/6e13c168-e6e0-401b-b4f2-186159794ce4" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
-    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/78019a73-1bb5-4faa-9212-8d12ed8f753e" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
-    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/823eff6e-7346-4bbb-9d0c-e27858874dde" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
-    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/138ae7a3-2fd6-43a3-9db4-dff51e0e47d4" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
-    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/17ad8da5-ce06-4946-b96a-69384e664582" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
-    <td style="height: 100px;"><img src="https://github.com/user-attachments/assets/bba5ed4f-206b-4768-a900-b744f1e22dd5" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <th style="width: 100% height: 100px;">Profile</th>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/6e13c168-e6e0-401b-b4f2-186159794ce4" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/78019a73-1bb5-4faa-9212-8d12ed8f753e" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/823eff6e-7346-4bbb-9d0c-e27858874dde" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/138ae7a3-2fd6-43a3-9db4-dff51e0e47d4" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/17ad8da5-ce06-4946-b96a-69384e664582" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/bba5ed4f-206b-4768-a900-b744f1e22dd5" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
   </tr>
   <tr>
     <th>Role</th>
