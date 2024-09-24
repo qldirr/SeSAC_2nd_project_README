@@ -4,7 +4,7 @@
 
 ![lieblings](https://github.com/user-attachments/assets/639bb375-fabd-4d68-95c5-e6cbe25c91f9)
 
-🔗 배포 서버 : http://13.125.19.233:8080/
+🔗 배포 서버 : http://43.201.85.98:8080/
 
 📃 [리블링스 발표자료 PDF](https://github.com/user-attachments/files/17101470/default.pdf)
 
