@@ -252,11 +252,11 @@
 
 #### 로그인/회원가입
 
-https://github.com/user-attachments/assets/6d096c24-5ab9-44c7-9828-b1b60f78733e
+https://github.com/user-attachments/assets/ee667a16-264c-41b4-b026-fc3d6af0cdcd
 
 #### 메인 페이지 및 소개 페이지
 
-https://github.com/user-attachments/assets/73848309-83e7-44f7-ac99-8dde0e40544c
+https://github.com/user-attachments/assets/d8c188c8-44eb-42d2-8269-c8bbaa7aad6f
 
 <br/>
 
