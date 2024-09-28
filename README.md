@@ -254,12 +254,19 @@ https://github.com/user-attachments/assets/73bb184d-f9b7-467e-8199-d777345bde7b
 
 #### 구매자
 
+https://github.com/user-attachments/assets/848bae01-0ca3-454a-87b7-770419ade0bb
+
+- 구매자는 판매글에 대해 찜 등록 및 삭제, 장바구니 담기, 판매글 신고 가능
+- 구매자가 결제를 진행하면 결제 대금이 관리자에게 전달
+- 주문 건에 대해 구매확정을 하면 결제 대금이 판매자에게 전달
+
 #### 관리자
 
 https://github.com/user-attachments/assets/fb315369-a9ff-48b4-b76d-9cb0d64b06ab
 
-- 관리자는 일반 회원이 할 수 있는 물품 찜 및 구매가 불가
+- 관리자는 일반 회원이 할 수 있는 판매 물품 찜 및 구매가 불가
 - 관리자가 특정 판매자를 블랙리스트에 추가할 경우, 해당 판매자의 '판매 완료'되지 않은 주문 건에 대해 구매자에게 환불 처리
+- 구매자가 결제를 진행하여 주문이 생성되면 결제 대금이 관리자에게 전달, 구매자가 구매한 물품을 '구매 확정'을 하면 결제 대금이 판매자에게 전달(관리자가 대금을 중개하는 역할)
 
 #### 로그인/회원가입
 
@@ -268,6 +275,10 @@ https://github.com/user-attachments/assets/dc2352ca-9e46-4bcb-abca-6e795d7ee6c7
 #### 메인 페이지 및 소개 페이지
 
 https://github.com/user-attachments/assets/b064aba9-1fbd-4d25-84c5-e873dc46ae76
+
+#### 반응형
+
+https://github.com/user-attachments/assets/40b278ab-50b3-4068-9494-e247d26ad431
 
 <br/>
 
