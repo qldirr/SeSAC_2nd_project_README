@@ -250,13 +250,18 @@
 
 #### 관리자
 
+https://github.com/user-attachments/assets/fb315369-a9ff-48b4-b76d-9cb0d64b06ab
+
+- 관리자는 일반 회원이 할 수 있는 물품 찜 및 구매가 불가
+- 관리자가 특정 판매자를 블랙리스트에 추가할 경우, 해당 판매자의 '판매 완료'되지 않은 주문 건에 대해 구매자에게 환불 처리
+
 #### 로그인/회원가입
 
-https://github.com/user-attachments/assets/ee667a16-264c-41b4-b026-fc3d6af0cdcd
+https://github.com/user-attachments/assets/dc2352ca-9e46-4bcb-abca-6e795d7ee6c7
 
 #### 메인 페이지 및 소개 페이지
 
-https://github.com/user-attachments/assets/d8c188c8-44eb-42d2-8269-c8bbaa7aad6f
+https://github.com/user-attachments/assets/b064aba9-1fbd-4d25-84c5-e873dc46ae76
 
 <br/>
 
