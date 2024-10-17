@@ -8,6 +8,10 @@
 
 📃 [리블링스 발표자료 PDF](https://github.com/user-attachments/files/17101470/default.pdf)
 
+📁 [Back Repository](https://github.com/SeSAC-2nd/SeSAC-2nd-Back)
+
+📁 [Front Repository](https://github.com/SeSAC-2nd/SeSAC-2nd-Front)
+
 <br/>
 
 ## 🔹 목차
