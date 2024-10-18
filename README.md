@@ -2,7 +2,7 @@
 
 > SeSAC 영등포 6기 2차 프로젝트(240821~240912)
 
-![lieblings](https://github.com/user-attachments/assets/639bb375-fabd-4d68-95c5-e6cbe25c91f9)
+![KakaoTalk_20241018_183735873](https://github.com/user-attachments/assets/9e020f47-4c79-4568-8502-4ccdb4031d55)
 
 🔗 배포 서버 : http://43.201.85.98:8080/
 
@@ -24,8 +24,7 @@
 6. [역할 분담](#역할-분담)
 7. [프로젝트 설계](#프로젝트-설계)
 8. [구현 기능](#구현-기능)
-9. [향후 계획](#향후-계획)
-10. [소감](#소감)
+9. [소감](#소감)
 
 <br/>
 
@@ -61,12 +60,12 @@
   </tr>
   <tr>
     <th>Role</th>
-    <td>[팀원] FE</td>
+    <td>FE</td>
     <td>[팀장] BE, DevOps</td>
-    <td>[팀원] BE, DevOps</td>
-    <td>[팀원] FE, BE, DevOps</td>
-    <td>[팀원] FE</td>
-    <td>[팀원] FE</td>
+    <td>BE, DevOps</td>
+    <td>FE, BE, DevOps</td>
+    <td>FE</td>
+    <td>FE</td>
   </tr>
   <tr>
     <th>GitHub</th>
@@ -151,6 +150,7 @@
 
 ![Section 1 (1)](https://github.com/user-attachments/assets/eaad7281-840c-4c03-8fb7-252aa6042678)
 
+<!-- 
 ```
   SESAC-2ND-FRONT
 ├── public - 공통리소스 저장공간
@@ -192,6 +192,7 @@
 ├── logs - winston 미들웨어를 통해 로그를 기록하는 디렉토리          
 └── app.js - 애플리케이션의 주 진입점 파일
 ```
+-->
 
 <br/>
 
@@ -241,10 +242,10 @@
 
 ## 프로젝트 설계
 
-- [요구분석 정의서/명세서](https://docs.google.com/spreadsheets/d/1Ya0RCD4RilnOiLNQEIT97pBJ_jZ2YYCjc8nT2JiX4nU/edit?gid=0#gid=0)
+<!-- - [요구분석 정의서/명세서](https://docs.google.com/spreadsheets/d/1Ya0RCD4RilnOiLNQEIT97pBJ_jZ2YYCjc8nT2JiX4nU/edit?gid=0#gid=0) -->
 - [DB 설계](https://github.com/SeSAC-2nd/SeSAC-2nd-Back/wiki/DB-%EC%84%A4%EA%B3%84)
-- [화면 설계](https://www.figma.com/design/DWtFFjfUstdvSYmbkATfLE/sesac-2nd-pj?node-id=0-1&node-type=canvas&t=7Fuy1V5MQoBPyhzW-0)
-- [명명법](https://docs.google.com/spreadsheets/d/1QaX_eHmUnU0yDstVW9tcm-4Va23pm7ib7xM4YGWIkAQ/edit?gid=0#gid=0)
+<!-- - [화면 설계](https://www.figma.com/design/DWtFFjfUstdvSYmbkATfLE/sesac-2nd-pj?node-id=0-1&node-type=canvas&t=7Fuy1V5MQoBPyhzW-0)
+- [명명법](https://docs.google.com/spreadsheets/d/1QaX_eHmUnU0yDstVW9tcm-4Va23pm7ib7xM4YGWIkAQ/edit?gid=0#gid=0) -->
 
 <br/>
 
@@ -288,8 +289,6 @@ https://github.com/user-attachments/assets/40b278ab-50b3-4068-9494-e247d26ad431
 
 <br/>
 
-## 향후 계획
-<br/>
 
 ## 소감
 
