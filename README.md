@@ -6,7 +6,8 @@
 
 🔗 배포 서버 : http://43.201.85.98:8080/
 
-📃 [리블링스 발표자료 PDF](https://github.com/user-attachments/files/17101470/default.pdf)
+📃 [리블링스 발표자료 PDF](https://github.com/user-attachments/files/17436078/lieblings_.pdf)
+
 
 📁 [Back Repository](https://github.com/SeSAC-2nd/SeSAC-2nd-Back)
 
@@ -49,14 +50,18 @@
     <th style="text-align: center;">윤예슬</th>
     <th style="text-align: center;">이다인</th>
   </tr>
+
+
   <tr>
     <th style="width: 100% height: 100px;">Profile</th>
-    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/6e13c168-e6e0-401b-b4f2-186159794ce4" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
-    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/78019a73-1bb5-4faa-9212-8d12ed8f753e" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
-    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/823eff6e-7346-4bbb-9d0c-e27858874dde" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
-    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/138ae7a3-2fd6-43a3-9db4-dff51e0e47d4" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
-    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/17ad8da5-ce06-4946-b96a-69384e664582" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
-    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/bba5ed4f-206b-4768-a900-b744f1e22dd5" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/38bce886-7793-44f5-b2f0-afba0d927b33" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/8a110b6c-99c5-419d-b404-10a6715a1e33" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/4aef3850-6909-4ca3-a346-6bc123120971" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/6c6c006f-02c2-4fe3-800f-43aca654f121" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/4c3895e2-4237-41eb-9d86-e8d22d908c60" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+    <td style="width: 15% height: 100px;"><img src="https://github.com/user-attachments/assets/7464ffb1-aa06-4718-9ec6-c2e2bc68c7d3" style="width: 100%; max-width: 100px; height: auto; object-fit: cover;"></td>
+  
+    
   </tr>
   <tr>
     <th>Role</th>
@@ -197,46 +202,13 @@
 <br/>
 
 ## 역할 분담
-
-- 이다인
-  - 커스텀 훅 및 리덕스를 활용한 유저 권한 관리
-  - 결제 관련(장바구니, 결제, 결제완료, 배송지) 상태관리 및 기능
-  - 카테고리 별 상품 목록 페이지 레이아웃, 렌더링, 페이지네이션 기능
-  - 검색 기능 및 검색 결과 페이지 레이아웃, 렌더링, 페이지네이션 기능
-  - 관리자 페이지 레이아웃, 렌더링 및 기능
-  - 공통 UI 레이아웃(header, footer, main)
-  - 리액트 라우터 초기세팅
-- 양태완
-  - 프론트엔드와 백엔드의 API 연동과 데이터바인딩 작업중 발생하는 오류 해결
-  - 일관성 없는 응답구조의 개선
-  - S3와 통신하는 미들웨어 구현
-  - 마이페이지 초기 페이지
-  - cors 해결, AWS를 통한 배포
-- 김어진
+  - 결제 처리 및 블랙리스트 관리 등 트랜잭션이 필요한 주요 로직 구현
   - 시스템 또는 애플리케이션의 전반적인 구조 설계 책임
   - 프론트엔드와 백엔드 간의 통신 및 데이터 처리 과정에서 발생하는 문제 해결
   - AWS 인프라 설정 및 유지보수 작업
   - DB 초기 설정 및 운영 관리
   - 서버 측 코드 베이스 및 환경 설정 작업
-- 윤예슬
-  - 로그인 모달 레이아웃 및 기능, 상태관리
-  - 회원가입 페이지 레이아웃 및 기능
-  - 마이페이지 레이아웃 및 기능 (구매내역, 판매내역, 판매글목록, 찜목록)
-  - 구매내역의 구매확정 / 판매내역의 송장번호 등록 기능
-  - 판매자 등록 페이지 레이아웃 및 기능
-  - 개인정보 수정 / 판매자 정보 수정 페이지 레이아웃 및 기능
-  - 공통 UI 레이아웃(header, footer, main)
-  - 리액트 라우터 초기세팅
-- 강예나
-  - 메인페이지 레이아웃 및 스와이퍼, 렌더링 기능
-  - 소개페이지 레이아웃 및 기능
-  - 판매글 등록 페이지 레이아웃 및 기능
-  - 판매글 상세페이지(상품정보, 찜, 신고, 댓글, 대댓글) 레이아웃 및 기능
-  - 알림 시스템 개선
-  - 테스트 환경 구축
-  - ESLint, Prettier 설정 및 적용
-  - 공통 UI 레이아웃(header, footer, main)
-  - 리액트 라우터 초기세팅
+
 
 <br/>
 
@@ -292,14 +264,5 @@ https://github.com/user-attachments/assets/40b278ab-50b3-4068-9494-e247d26ad431
 
 ## 소감
 
-> 강예나  :  이번 프로젝트에서 사용자가 편리하게 정보를 입력하고 접근할 수 있는 방법을 고민하였고, 이를 통해 사용자 중심의 디자인과 개발 능력을 향상 시킬 수 있었던 좋은 경험이었습니다. 팀원들 다들 고생했고 고마워요!
-
 > 김어진  : 구현해야 할 기능이 많아서 모든 개발에 우선순위를 두고 개발을 했다는 점이 어려웠지만 프론트와 이야기를 하여 에러 사항을 공유하면서 진행하여 배울점이 많았습니다.
 
-> 김지민  :  끝까지 참여하지 못해 아쉽지만, 체계적인 설계 및 개발 과정을 통해 많은 것을 배울 수 있어 좋았습니다.
-
-> 양태완  :  뒤늦게 합류한 프로젝트에서 어떠한 역할을 수행해야 하는지 고민해볼 수 있는 기회였습니다.
-
-> 윤예슬  :  이번 프로젝트를 통해 리액트를 사용함으로써 컴포넌트 기반 설계와 상태 관리 등의 개념을 익힘으로써 개발 역량이 한층 성장한 것을 느낄 수 있었고,  프로젝트 완성까지 열정적으로 함께 달려온 팀원들 모두 고생하셨습니다!
-
-> 이다인  :  이번 프로젝트를 통해서 머리속에 애매하게 알고 있던 지식을 구체화 시키면서 성장하는 느낌이 들어 좋았습니다. 특히 리덕스를 활용해서 상태관리를 쉽게 할 수있는 방법을 배울 수 있어 만족스럽습니다. 모두 고생하셨습니다.
