@@ -224,39 +224,49 @@
 ## 구현 기능
 
 #### 판매자
-<img src="https://github.com/user-attachments/assets/f8adbd69-e7bc-400d-9384-489601f87a93" style="width:700px">
-
-
+<img src="https://github.com/user-attachments/assets/f8adbd69-e7bc-400d-9384-489601f87a93" style="width:600px">
 
 - 일반 회원이 판매글을 등록하고 싶다면 판매자 등록부터 진행
 - 판매글에 대해 주문이 생성되면 송장번호를 입력 -> 배송 상태가 '배송 중'으로 변경
 - 판매글이 '판매 예약' 상태면 판매글 수정 및 삭제 불가
+  
+<br/>
 
 #### 구매자
-
-
+<img src="https://github.com/user-attachments/assets/1a3400ec-4f03-4281-bc06-9e378d95a870" style="width:600px">
 
 - 구매자는 판매글에 대해 찜 등록 및 삭제, 장바구니 담기, 판매글 신고 가능
 - 구매자가 결제를 진행하면 결제 대금이 관리자에게 전달
 - 주문 건에 대해 구매확정을 하면 결제 대금이 판매자에게 전달
+  
+<br/>
 
 #### 관리자
-
+<img src="https://github.com/user-attachments/assets/0287020f-33a9-43b7-858f-14c61faae23b" style="width:600px">
 
 
 - 관리자는 일반 회원이 할 수 있는 판매 물품 찜 및 구매가 불가
 - 관리자가 특정 판매자를 블랙리스트에 추가할 경우, 해당 판매자의 '판매 완료'되지 않은 주문 건에 대해 구매자에게 환불 처리
 - 구매자가 결제를 진행하여 주문이 생성되면 결제 대금이 관리자에게 전달, 구매자가 구매한 물품을 '구매 확정'을 하면 결제 대금이 판매자에게 전달(관리자가 대금을 중개하는 역할)
+  
+<br/>
 
 #### 로그인/회원가입
+<img src="https://github.com/user-attachments/assets/ed7bfc02-5579-435a-97cd-c18f028853bb" style="width:600px">
 
 
+<br/>
+<br/>
 
 #### 메인 페이지 및 소개 페이지
+<img src="https://github.com/user-attachments/assets/967d1c48-bc7c-4327-a1cc-7d8089684aa1" style="width:600px">
 
 
+<br/>
+<br/>
 
 #### 반응형
+<img src="https://github.com/user-attachments/assets/c67a4046-3a94-4758-95cf-ad7f397bdcb2">
 
 
 
