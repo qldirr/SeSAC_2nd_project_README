@@ -224,8 +224,8 @@
 ## 구현 기능
 
 #### 판매자
+<img src="https://github.com/user-attachments/assets/f8adbd69-e7bc-400d-9384-489601f87a93" style="width:700px">
 
-![판매자 gif 자른버전](https://github.com/user-attachments/assets/f8adbd69-e7bc-400d-9384-489601f87a93)
 
 
 - 일반 회원이 판매글을 등록하고 싶다면 판매자 등록부터 진행
