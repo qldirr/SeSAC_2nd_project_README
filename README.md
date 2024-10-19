@@ -23,9 +23,9 @@
 4. [브랜치 전략](#브랜치-전략)
 5. [프로젝트 구조](#프로젝트-구조)
 6. [팀내 역할](#팀내-역할)
-7. [프로젝트 설계](#프로젝트-설계)
+7. [DB 설계](#DB-설계)
 8. [구현 기능](#구현-기능)
-9. [소감](#소감)
+9. [회고](#회고)
 
 <br/>
 
@@ -212,10 +212,11 @@
 
 <br/>
 
-## 프로젝트 설계
+## DB 설계
+![ERD Component](https://github.com/user-attachments/assets/dc1b4f90-d1cd-4ab1-8a9a-772c576bc45d)
 
 <!-- - [요구분석 정의서/명세서](https://docs.google.com/spreadsheets/d/1Ya0RCD4RilnOiLNQEIT97pBJ_jZ2YYCjc8nT2JiX4nU/edit?gid=0#gid=0) -->
-- [DB 설계](https://github.com/SeSAC-2nd/SeSAC-2nd-Back/wiki/DB-%EC%84%A4%EA%B3%84)
+
 <!-- - [화면 설계](https://www.figma.com/design/DWtFFjfUstdvSYmbkATfLE/sesac-2nd-pj?node-id=0-1&node-type=canvas&t=7Fuy1V5MQoBPyhzW-0)
 - [명명법](https://docs.google.com/spreadsheets/d/1QaX_eHmUnU0yDstVW9tcm-4Va23pm7ib7xM4YGWIkAQ/edit?gid=0#gid=0) -->
 
@@ -273,7 +274,6 @@
 <br/>
 
 
-## 소감
+## 회고
 
-> 김어진  : 구현해야 할 기능이 많아서 모든 개발에 우선순위를 두고 개발을 했다는 점이 어려웠지만 프론트와 이야기를 하여 에러 사항을 공유하면서 진행하여 배울점이 많았습니다.
-
+> 이번 프로젝트는 제가 처음으로 프론트엔드와 백엔드로 포지션을 나누어 진행한 경험이었고, 프로젝트 기간이 짧지 않았던 만큼 팀원들과의 지속적인 소통의 중요성을 깊이 깨달았습니다. 특히, 프론트엔드 담당 팀원들과 화면에 데이터를 출력하는 구조에 대해 많은 논의를 진행했습니다. 이 과정에서 예외 처리와 응답 구조의 일관성이 얼마나 중요한지 깨달았으며, 프론트엔드와의 소통이 부족했던 부분을 보완해야 한다는 점을 느꼈습니다.
