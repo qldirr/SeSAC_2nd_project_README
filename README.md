@@ -225,6 +225,7 @@
 
 #### 판매자
 
+![판매자 gif 자른버전](https://github.com/user-attachments/assets/f8adbd69-e7bc-400d-9384-489601f87a93)
 
 
 - 일반 회원이 판매글을 등록하고 싶다면 판매자 등록부터 진행
@@ -241,7 +242,6 @@
 
 #### 관리자
 
-![관리자 gif](https://github.com/user-attachments/assets/4fb721ad-ab76-40a0-9c59-3660eb3c7e63)
 
 
 - 관리자는 일반 회원이 할 수 있는 판매 물품 찜 및 구매가 불가
