@@ -4,7 +4,6 @@
 
 ![KakaoTalk_20241018_183735873](https://github.com/user-attachments/assets/9e020f47-4c79-4568-8502-4ccdb4031d55)
 
-🔗 배포 서버 : http://43.201.85.98:8080/
 
 📃 [리블링스 발표자료 PDF](https://github.com/user-attachments/files/17436078/lieblings_.pdf)
 
