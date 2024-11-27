@@ -19,12 +19,13 @@
 1. [프로젝트 소개](#프로젝트-소개)
 2. [팀원 구성](#팀원-구성)
 3. [개발 환경](#개발-환경)
-4. [브랜치 전략](#브랜치-전략)
-5. [프로젝트 구조](#프로젝트-구조)
-6. [팀내 역할](#팀내-역할)
-7. [DB 설계](#DB-설계)
-8. [구현 기능](#구현-기능)
-9. [회고](#회고)
+4. [설치 및 실행](#설치-및-실행)
+5. [브랜치 전략](#브랜치-전략)
+6. [프로젝트 구조](#프로젝트-구조)
+7. [팀내 역할](#팀내-역할)
+8. [DB 설계](#db-설계)
+9. [구현 기능](#구현-기능)
+10. [회고](#회고)
 
 <br/>
 
@@ -115,6 +116,44 @@
 <img src="https://img.shields.io/badge/slack-4A154B?style=for-the-badge&logo=slack&logoColor=white"> <img src="https://img.shields.io/badge/notion-000000?style=for-the-badge&logo=notion&logoColor=white">
 
 <br/>
+
+## 설치 및 실행
+
+```
+### 사전 요구사항
+- Node.js
+- npm (Node Package Manager)
+
+### 설치 단계
+
+1. 저장소 클론
+
+git clone https://github.com/SeSAC-2nd/SeSAC-2nd-Back.git
+cd [프로젝트 디렉토리]
+
+2. 의존성 설치
+
+npm install
+
+3. .env 파일에 필요 환경 변수 설정
+
+PORT=3000  # 애플리케이션이 수신 대기할 포트 번호
+DB_HOST=your-database-host.rds.amazonaws.com    # 데이터베이스 호스트 주소
+DB_USER=your_database_username   # 데이터베이스 사용자 이름
+DB_PASSWORD=your_secure_database_password    # 데이터베이스 비밀번호
+DB_NAME=your_database_name   # 데이터베이스 이름
+DIALECT=mysql   # 데이터베이스 방언 (MySQL 사용)
+
+SALTNUM=12   # 비밀번호 해싱을 위한 Salt 라운드 수
+SESSION_SECRET_KEY=your_very_long_and_random_secret_key   # 세션 암호화를 위한 비밀 키
+
+AWS_ACCESS_KEY_ID=AKIAXXXXXXXXXXXXXXXXX   # AWS IAM 사용자의 액세스 키 ID
+AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    # AWS IAM 사용자의 비밀 액세스 키
+AWS_REGION=ap-northeast-2   # AWS 리전
+S3_BUCKET_NAME=your-unique-s3-bucket-name   # S3 버킷 이름
+```
+
+<br>
 
 ## 브랜치 전략
 
