@@ -12,6 +12,8 @@
 
 📁 [Front Repository](https://github.com/SeSAC-2nd/SeSAC-2nd-Front)
 
+📝 [프로젝트 회고록 및 트러블슈팅](https://mont-blanc.tistory.com/71)
+
 <br/>
 
 ## 🔹 목차
@@ -23,7 +25,7 @@
 5. [브랜치 전략](#브랜치-전략)
 6. [프로젝트 구조](#프로젝트-구조)
 7. [팀내 역할](#팀내-역할)
-8. [DB 설계](#db-설계)
+8. [주요 테이블 설계](#주요-테이블-설계)
 9. [구현 기능](#구현-기능)
 10. [회고](#회고)
 
@@ -93,15 +95,15 @@
 
 #### Frameworks
 
-<img src="https://img.shields.io/badge/nodedotjs-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white"> <img src="https://img.shields.io/badge/express-000000?style=for-the-badge&logo=express&logoColor=white"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+<img src="https://img.shields.io/badge/nodedotjs-20.14.0-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white"> <img src="https://img.shields.io/badge/express-4.19.2-000000?style=for-the-badge&logo=express&logoColor=white"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
 
 #### Libraries
 
-<img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"> <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> <img src="https://img.shields.io/badge/multer-F46519?style=for-the-badge&logo=multer&logoColor=white"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white"> <img src="https://img.shields.io/badge/winston-000000?style=for-the-badge&logo=winston&logoColor=white"> <img src="https://img.shields.io/badge/sequelize-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white">
+<img src="https://img.shields.io/badge/bcrypt-5.1.1-232F3E?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/express_session-1.18.0-000000?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/multer-1.4.5-F46519?style=for-the-badge&logo=multer&logoColor=white"> <img src="https://img.shields.io/badge/winston-3.14.2-000000?style=for-the-badge&logo=winston&logoColor=white"> <img src="https://img.shields.io/badge/sequelize-6.37.3-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white"> <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"> <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white">
 
 #### Databases
 
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
+<img src="https://img.shields.io/badge/mysql-3.11.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
 
 #### Deployment
 
@@ -126,17 +128,14 @@
 
 ### 설치 단계
 
-1. 저장소 클론
-
+// 저장소 클론
 git clone https://github.com/SeSAC-2nd/SeSAC-2nd-Back.git
 cd [프로젝트 디렉토리]
 
-2. 의존성 설치
-
+// 의존성 설치
 npm install
 
-3. .env 파일에 필요 환경 변수 설정
-
+// .env 파일에 필요 환경 변수 설정
 PORT=3000  # 애플리케이션이 수신 대기할 포트 번호
 DB_HOST=your-database-host.rds.amazonaws.com    # 데이터베이스 호스트 주소
 DB_USER=your_database_username   # 데이터베이스 사용자 이름
@@ -151,6 +150,9 @@ AWS_ACCESS_KEY_ID=AKIAXXXXXXXXXXXXXXXXX   # AWS IAM 사용자의 액세스 키 I
 AWS_SECRET_ACCESS_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx    # AWS IAM 사용자의 비밀 액세스 키
 AWS_REGION=ap-northeast-2   # AWS 리전
 S3_BUCKET_NAME=your-unique-s3-bucket-name   # S3 버킷 이름
+
+//서버 실행
+npm start
 ```
 
 <br>
@@ -190,8 +192,8 @@ S3_BUCKET_NAME=your-unique-s3-bucket-name   # S3 버킷 이름
 <br/>
 
 ## 프로젝트 구조
+<img src="https://github.com/user-attachments/assets/eaad7281-840c-4c03-8fb7-252aa6042678" width=700>
 
-![Section 1 (1)](https://github.com/user-attachments/assets/eaad7281-840c-4c03-8fb7-252aa6042678)
 
 <!-- 
 ```
@@ -250,8 +252,9 @@ S3_BUCKET_NAME=your-unique-s3-bucket-name   # S3 버킷 이름
 
 <br/>
 
-## DB 설계
-![ERD Component](https://github.com/user-attachments/assets/dc1b4f90-d1cd-4ab1-8a9a-772c576bc45d)
+## 주요 테이블 설계
+<img src="https://github.com/user-attachments/assets/d200e95b-7bcc-41f3-bdcf-b1d265ef9cf4" width=900>
+
 
 <!-- - [요구분석 정의서/명세서](https://docs.google.com/spreadsheets/d/1Ya0RCD4RilnOiLNQEIT97pBJ_jZ2YYCjc8nT2JiX4nU/edit?gid=0#gid=0) -->
 
