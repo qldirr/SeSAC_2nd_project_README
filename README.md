@@ -91,15 +91,15 @@
 
 #### Languages
 
-<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
+<img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/sass-1.77.8-CC6699?style=for-the-badge&logo=sass&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
 
 #### Frameworks
 
-<img src="https://img.shields.io/badge/nodedotjs-20.14.0-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white"> <img src="https://img.shields.io/badge/express-4.19.2-000000?style=for-the-badge&logo=express&logoColor=white"> <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+<img src="https://img.shields.io/badge/node.js-20.14.0-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white"> <img src="https://img.shields.io/badge/express-4.19.2-000000?style=for-the-badge&logo=express&logoColor=white"> <img src="https://img.shields.io/badge/react-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=white">
 
 #### Libraries
 
-<img src="https://img.shields.io/badge/bcrypt-5.1.1-232F3E?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/express_session-1.18.0-000000?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/multer-1.4.5-F46519?style=for-the-badge&logo=multer&logoColor=white"> <img src="https://img.shields.io/badge/winston-3.14.2-000000?style=for-the-badge&logo=winston&logoColor=white"> <img src="https://img.shields.io/badge/sequelize-6.37.3-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white"> <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"> <img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> <img src="https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white">
+<img src="https://img.shields.io/badge/bcrypt-5.1.1-232F3E?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/express_session-1.18.0-000000?style=for-the-badge&logoColor=white"> <img src="https://img.shields.io/badge/multer-1.4.5-F46519?style=for-the-badge&logo=multer&logoColor=white"> <img src="https://img.shields.io/badge/winston-3.14.2-000000?style=for-the-badge&logo=winston&logoColor=white"> <img src="https://img.shields.io/badge/sequelize-6.37.3-52B0E7?style=for-the-badge&logo=sequelize&logoColor=white"> <img src="https://img.shields.io/badge/axios-1.7.7-5A29E4?style=for-the-badge&logo=axios&logoColor=white"> <img src="https://img.shields.io/badge/jquery-3.7.1-0769AD?style=for-the-badge&logo=jquery&logoColor=white"> <img src="https://img.shields.io/badge/redux-5.0.1-764ABC?style=for-the-badge&logo=redux&logoColor=white">
 
 #### Databases
 
