@@ -255,7 +255,7 @@ npm start
 ## 주요 테이블 설계
 <img src="https://github.com/user-attachments/assets/d200e95b-7bcc-41f3-bdcf-b1d265ef9cf4" width=900>
 
-- 회원 테이블과 판매글 테이블 간 행위 테이블인 구매 테이블을 생성 
+- 회원(User) 테이블과 판매글(Post) 테이블 간 행위 테이블인 구매(Order) 테이블을 생성 
 
 <!-- - [요구분석 정의서/명세서](https://docs.google.com/spreadsheets/d/1Ya0RCD4RilnOiLNQEIT97pBJ_jZ2YYCjc8nT2JiX4nU/edit?gid=0#gid=0) -->
 
